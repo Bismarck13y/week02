@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+    font-family: var(times);
+    max-width: 960px;
+    padding: 20px;
+}
+
+.rock-salt-regular {
+    font-family: 'Rock Salt', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #3F88C5;
+    --secondary-color: #937567;
+    --accent1-color: #66BE37;
+    --accent2-color: #F2B3FF;
+
+    --heading-font: 'Rock Salt', cursive;
+    --paragraph-font: 'Times New Roman', serif;
+
+    --nav-background-color: #3F88C5;
+    --nav-link-color: #F2B3FF;
+    --nav-hover-link-color: #F2B3FF;
+    --nav-hover-background-color: #937567;
+}
+.primary {
+    color: var(--primary-color);
+}
+
+.secondary {
+    color: var(--secondary-color);
+}
+
+.accent1 {
+    color: var(--accent1-color);
+}
+
+.accent2 {
+    color: var(--accent2-color);
+}
+nav {
+    background-color: var(--nav-background-color);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(times);
+	color: var(primary);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
